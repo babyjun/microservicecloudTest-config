@@ -4,7 +4,7 @@ spring:
   profiles: dev
   application:
     name: microservicecloudtest-config-client
-ecureka:
+eureka:
   client:
     service-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
@@ -17,7 +17,7 @@ spring:
   profiles: test
   application:
     name: microservicecloudtest-config-client
-ecureka:
+eureka:
   client:
     service-url:
       defaultZone: http://eureka-test.com:7001/eureka/
